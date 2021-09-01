@@ -6,6 +6,8 @@ on:
       - main # Your default release branch
     paths:
       - 'ArdalisSpecificationEF/src/Ardalis.Specification.EntityFramework6/**'
+      - '.github/workflows/publishef6.yml'
+      
 jobs:
   publish:
     name: list on nuget
