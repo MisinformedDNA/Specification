@@ -1,5 +1,6 @@
 name: publish Ardalis.Specification.EntityFramework6 to nuget
 on:
+  workflow_dispatch:
   push:
     branches:
       - main # Your default release branch
